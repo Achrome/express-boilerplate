@@ -1,0 +1,15 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    [
+      "resolver",
+      {
+        "resolveDirs": ["src"]
+      }
+    ],
+    "transform-flow-strip-types",
+    "transform-object-rest-spread",
+    "syntax-async-functions",
+    "transform-regenerator"
+  ]
+}
